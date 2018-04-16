@@ -1,16 +1,16 @@
 <html>
-  <script type="text/javascript">
-    $(document).ready(function() {
-    $("#pubg").hide();
-
-    });
- </script>
-  
   <style>
     .background{background-color:papayawhip;}
   </style>
+  <script>
+  $(document).ready(function() {
+    $(".pubg").hide();
+    $("#target1").click(function(){
+        $("#pubg").toggle();
+    })
+  });
+</script>
   
-
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,9 +18,6 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body class ="background">
-    <div  id = "pubg">
-    本作是一款大逃殺類寫實射擊遊戲。在每局比賽完結後，玩家能基於他們在比賽中的生存時間及傷害和殺死敵對玩家的數目，獲得相應的遊戲貨幣（Battle point），而這些貨幣
-    </div>
     <h1 style="text-align:center">YJ&#39;S web</h1>
     <h2>My favorite movies:</h2>
     <p>1:</p>
@@ -34,6 +31,14 @@
     <p><img alt="" src="https://i.imgur.com/quh8gVm.jpg" style="height:270px; width:480px" /></p>
  
     <button id ="target1">PUBG介紹</button>
+    <div class = "pubg" id = "pubg">
+    <p>本作是一款大逃殺類寫實射擊遊戲。在每局比賽完結後，玩家能基於他們在比賽中的生存時間及傷害和殺死敵對玩家的數目，獲得相應的遊戲貨幣（Battle point），而這些貨幣能購買適用於改變人物外表的道具。</p>
 
+    <p>經典模式<br />
+    每一局遊戲最多允許有100名玩家參與，且在這個大型死亡競賽中爭取活至最後，可以選擇第一人稱、第三人稱，和每隊人數不同的遊戲模式。而無論在哪種情況下，生存至最後的一人或團隊都會贏得比賽。在每局比賽開始時，玩家所控制的角色都會在沒有攜帶任何東西的情況下跳傘至島上。著陸後，玩家便能搜尋建築物和其他場所，從而獲取隨機分布在整個地圖上的武器、車輛及其他裝備。其後，玩家需要選擇繼續保持隱藏以免被其他玩家殺死或追捕，並繼續尋找更多裝備，或者追捕及殺害其他玩家且搶走他們的裝備。</p>
+
+    <p>在比賽開始後的每隔數分鐘，地圖上可遊玩的「安全」區域將會向著一個隨機位置縮小，而任何身處在安全區域外的玩家便會隨著時間的推移受到傷害，直至被淘汰。在遊戲內，當「安全」區域縮小時，玩家會看見一面不斷閃爍的藍色牆壁收縮。安全區域縮窄能迫使玩家在更狹窄的區域內進行遊戲，並增加與其他倖存玩家相遇的機會。另一方面，在比賽過程中，地圖上的區域會隨機遭到轟炸，並對處於該區的玩家構成危險。在這兩種情況下，玩家皆會在這些事件發生前被警告，從而前往安全的地區。平均而言，一局比賽的時間大約為35分鐘。另外，如果玩家將遊戲語言設定為簡體中文，那麼遊戲中人物受到傷害時，流出的血將會變為綠色，而不是紅色。</p>
+
+    </div>
   </body>
 </html>
